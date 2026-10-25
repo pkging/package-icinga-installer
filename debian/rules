@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+export PATH=/opt/puppetlabs/puppet/bin:/bin:/usr/bin:/opt/puppetlabs/bolt/bin
+export DEST=$$(pwd)/debian/icinga-installer
+
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export RUBYOPT="-KU -E utf-8:utf-8"
+
+override_dh_auto_build:
+	rake build BUILDDIR=_build PREFIX=/usr LOCALSTATEDIR=/var SBINDIR=/usr/sbin SYSCONFDIR=/etc --trace
+
+override_dh_auto_install:
+	rake install BUILDDIR=_build PREFIX=${DEST}/usr LOCALSTATEDIR=${DEST}/var SBINDIR=${DEST}/usr/sbin SYSCONFDIR=${DEST}/etc --trace
+
+%:
+	dh $@

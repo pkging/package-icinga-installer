@@ -1,0 +1,271 @@
+icinga-installer (3.0.0-1) stable; urgency=medium
+
+  * Drop IDO support
+  * Use OpenVox 8, Drop Puppet support
+  * Add Ubuntu 26.04 support
+  * Drop Debian 11 support
+  * Add complete SELinux support
+  * Update Puppet modules
+
+ -- Lennart Betz <lbetz@prefork.de>  Sun, 25 Oct 2026 20:55:01 +0100
+
+icinga-installer (2.0.0-1) stable; urgency=medium
+
+  * Use Ruby of Puppet AIO package
+  * Add Puppet 8 support
+  * Drop Puppet 6 support
+  * Add Ubuntu Noble support 
+  * Use keyring for repositories
+
+ -- Lennart Betz <lennart.betz@netways.de>  Wed, 31 Aug 2024 17:30:42 +0200
+
+icinga-installer (1.3.2-1) stable; urgency=medium
+
+  * Replace Icinga Web 2 modules packages.
+
+ -- Lennart Betz <lennart.betz@netways.de>  Sat, 17 Aug 2024 10:22:42 +0200
+
+icinga-installer (1.3.1-1) stable; urgency=medium
+
+  * Fix bug with missing logdir in icingadb-redis-7.0.15-1 package
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 02 Jul 2024 17:45:42 +0200
+
+icinga-installer (1.3.0-2) stable; urgency=medium
+
+  * Fix private key permissions for Icinga Web
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 18 Jun 2024 07:03:42 +0200
+
+icinga-installer (1.3.0-1) stable; urgency=medium
+
+  * Debian Bookwor support #74
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 16 Feb 2024 07:39:31 +0100
+
+icinga-installer (1.2.8-1) stable; urgency=medium
+
+  * Redis password isn't set in Icinga2 feature #84
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 05 Jan 2024 10:46:12 +0100
+
+icinga-installer (1.2.7-1) stable; urgency=medium
+
+  * Add missing general monitoring settings #82
+  * Port for director db connection is not passed #80
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 21 Nov 2023 07:07:12 +0100
+
+icinga-installer (1.2.6-1) stable; urgency=medium
+
+  * Some fixes to install only icingaweb2 with icingadb module #79
+
+ -- Lennart Betz <lennart.betz@netways.de>  Thu, 05 Oct 2023 22:10:43 +0200
+
+icinga-installer (1.2.5-1) stable; urgency=medium
+
+  * Bugfix release v1.2.5
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 17 Jul 2023 10:51:21 +0200
+
+icinga-installer (1.2.4-1) stable; urgency=medium
+
+  * Bugfix release v1.2.4
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 16 May 2023 10:18:43 +0200
+
+icinga-installer (1.2.3-1) stable; urgency=medium
+
+  * Bugfix release v1.2.3
+
+ -- Lennart Betz <lennart.betz@netways.de>  Wed, 19 Apr 2023 05:01:30 +0200
+
+icinga-installer (1.2.2-1) stable; urgency=medium
+
+  * Bugfix release v1.2.2
+
+ -- Lennart Betz <lennart.betz@netways.de>  Sat, 15 Apr 2023 10:06:41 +0200
+
+icinga-installer (1.2.1-1) stable; urgency=medium
+
+  * Bugfix release v1.2.1
+  * Puppet >= 6.24.0 required
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 03 Apr 2023 10:05:16 +0200
+
+icinga-installer (1.2.0-1) stable; urgency=medium
+
+  * Update v1.2.0
+  * Support PdfExport module for Icinga Web 2
+  * Prevent overwriting Icinga Web 2 roles by rerun the Installer
+  * Support additional resources, user and group backends
+  * Support additional Apache vhost configs
+
+ -- Lennart Betz <lennart.betz@netways.de>  Sat, 11 Mar 2023 05:36:16 +0100
+
+icinga-installer (1.1.0-1) stable; urgency=medium
+
+  * Update v1.1.0
+  * Support Reporting
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 06 Mar 2023 09:23:16 +0100
+
+icinga-installer (1.0.0-1) stable; urgency=medium
+
+  * Update v1.0.0
+  * Support IcingaDB
+
+ -- Lennart Betz <lennart.betz@netways.de>  Thu, 09 Feb 2023 20:38:16 +0100
+
+icinga-installer (0.7.1-2) stable; urgency=medium
+
+  * Update build pipeline
+
+ -- Lorenz Kaestle <lorenz.kaestle@netways.de>  Tue, 20 Sep 2022 13:40:16 +0200
+
+icinga-installer (0.7.1-1) stable; urgency=low
+
+  * Releas 0.7.1
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 01 Aug 2022 15:16:42 +0200
+
+icinga-installer (0.7.0-1) stable; urgency=low
+
+  * Release 0.7.0
+  * Update puppet module
+  * Add Alma and Rocky Linux support
+  * Set a randomize initial icingaadmin password
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 26 Jul 2022 18:15:30 +0200
+
+icinga-installer (0.6.3-1) stable; urgency=low
+
+  * Releas 0.6.3
+  * update icinga-icinga2 puppet module to v3.3.1
+
+ -- Lennart Betz <lennart.betz@netways.de>  Wed, 08 Jun 2022 18:31:30 +0200
+
+icinga-installer (0.6.2-1) stable; urgency=low
+
+  * Releas 0.6.2
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 31 May 2022 13:30:42 +0200
+
+icinga-installer (0.6.1-1) stable; urgency=low
+
+  * Releas 0.6.1
+
+ -- Lennart Betz <lennart.betz@netways.de>  Sat, 29 Jan 2022 13:49:21 +0100
+
+icinga-installer (0.6.0-1) stable; urgency=low
+
+  * Releas 0.6.0
+  * Drop support for Debian Stretch
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 18 Nov 2021 08:37:09 +0100
+
+icinga-installer (0.5.0-2) stable; urgency=low
+
+  * Fix a security impact
+  * Add purge to postinst
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 08 Nov 2021 13:49:43 +0100
+
+icinga-installer (0.5.0-1) stable; urgency=low
+
+  * Release 0.5.0
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 08 Nov 2021 08:55:43 +0100
+
+icinga-installer (0.4.5-1) stable; urgency=low
+
+  * Release 0.4.5
+  * Fix problem with Puppet 5 and PostgreSQL databases
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 03 Sep 2021 10:50:43 +0200
+
+icinga-installer (0.4.3-1) stable; urgency=low
+
+  * Release 0.4.3
+
+ -- Lennart Betz <lennart.betz@netways.de>  Tue, 17 Aug 2021 19:02:23 +0200
+
+icinga-installer (0.4.2-2) stable; urgency=low
+
+  * Release 0.4.2
+
+ -- Lennart Betz <lennart.betz@netways.de>  Sun, 01 Aug 2021 14:39:05 +0200
+
+icinga-installer (0.4.2-1) stable; urgency=low
+
+  * Release 0.4.2
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 16 Jul 2021 10:21:51 +0200
+
+icinga-installer (0.4.1-1) stable; urgency=low
+
+  * Release 0.4.1
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 21 Jun 2021 16:39:43 +0200
+
+icinga-installer (0.4.0-1) stable; urgency=low
+
+  * Release 0.4.0
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 18 Jun 2021 21:25:43 +0200
+
+icinga-installer (0.3.0-1) stable; urgency=low
+
+  * Release 0.3.0
+  * Puppet Agent >= 5.5.10 < 7
+  * New Scenario server-pgsql
+
+ -- Lennart Betz <lennart.betz@netways.de>  Mon, 15 Mar 2021 08:48:15 +0100
+
+icinga-installer (0.2.1-3) stable; urgency=low
+
+  * fix missing parent_zone for agent
+
+ -- Lennart Betz <lennart.betz@netways.de>  Sat, 06 Mar 2021 11:06:15 +0100
+
+icinga-installer (0.2.1-2) stable; urgency=low
+
+  * fix missing parent_zone in puppet-icinga-installer
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 05 Mar 2021 12:30:15 +0100
+
+icinga-installer (0.2.1-1) stable; urgency=low
+
+  * 0.2.1 released
+
+ -- Lennart Betz <lennart.betz@netways.de>  Thu, 04 Mar 2021 10:45:32 +0100
+
+icinga-installer (0.2.0-1) stable; urgency=low
+
+  * 0.2.0 released
+
+ -- Lennart Betz <lennart.betz@netways.de>  Thu, 04 Mar 2021 08:57:55 +0100
+
+icinga-installer (0.1.3-1) stable; urgency=low
+
+  * 0.1.3 released
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 26 Feb 2021 21:14:13 +0100
+
+icinga-installer (0.1.1-2) stable; urgency=low
+
+  * fix #1 Wrong shell on Debian Stretch AND Ubuntu Bionic, fixed in puppet-icinga module
+
+ -- Lennart Betz <lennart.betz@netways.de>  Thu, 25 Feb 2021 09:46:13 +0100
+
+icinga-installer (0.1.1-1) stable; urgency=low
+
+  * 0.1.1 released
+
+ -- Lennart Betz <lennart.betz@netways.de>  Fri, 12 Feb 2021 11:29:13 +0100
+
+icinga-installer (0.1.0-1) stable; urgency=low
+
+  * 0.1.0 released
+
+ -- Lennart Betz <lennart.betz@netways.de>  Thu, 11 Feb 2021 21:11:13 +0100

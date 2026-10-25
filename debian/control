@@ -1,0 +1,22 @@
+Source: icinga-installer
+Section: ruby
+Priority: optional
+Maintainer: Lennart Betz <lbetz@prefork.de>
+Build-Depends: debhelper (>= 11), curl, git,
+               puppet-agent (>= 8.0.0), puppet-agent (<< 9.0.0), puppet-bolt (>= 4.0.0),
+               puppet-agent-puppet-strings (>= 7.0.0), puppet-agent-puppet-strings (<< 8.0.0),
+               puppet-agent-kafo (>= 7.5.0), puppet-agent-kafo (<< 8.0.0)
+Standards-Version: 4.1.3
+Homepage: https://github.com/lbetz/icinga-installer
+XS-Ruby-Versions: all
+
+Package: icinga-installer
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         puppet-agent (>= 8.0.0), puppet-agent (<< 9.0.0),
+         puppet-agent-kafo (>= 7.5.0), puppet-agent-kafo (<< 8.0.0),
+         curl, sed, lsb-release
+Description: Automated puppet-based installer for Icinga
+ icinga-installer is a set of puppet modules wrapped in ruby
+ library to provide a nice frontend menu for configuring it.

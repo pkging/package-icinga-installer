@@ -1,0 +1,29 @@
+This work was packaged for Debian by:
+
+    Lennart Betz <lbetz@prefork.de> on Thu, 11 Feb 2021 21:11:13 +0100
+
+It was downloaded from:
+
+    https://github.com/lbetz/icinga-installer
+
+Upstream Author(s):
+
+    Lennart Betz <lbetz@prefork.de>
+
+Copyright:
+
+    Copyright (C) 2020-2026 Lennart Betz <lbetz@prefork.de>
+
+License:
+
+    GPL-3
+
+On any Debian system, you can find the complete text of the GNU GPL
+(GNU General Public License) in the file '/usr/share/common-licenses/GPL-3'.
+
+The Debian packaging is:
+
+    Copyright (C) 2020 Lennart Betz <lbetz@prefork.de>
+
+and is licensed under the GPL version 3,
+see "/usr/share/common-licenses/GPL-3".
