@@ -1,3 +1,4 @@
 version=4
-opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/icinga-installer-$1\.tar\.gz/ \
-https://github.com/lbetz/icinga-installer/tags .*/v?(\d\S+)\.tar\.gz
+opts="mode=git, pgpmode=none" \
+https://github.com/lbetz/icinga-installer.git \
+refs/tags/v@ANY_VERSION@
