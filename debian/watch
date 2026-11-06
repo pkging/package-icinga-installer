@@ -1,4 +1,4 @@
 version=4
-opts="mode=git, pgpmode=none" \
-https://github.com/lbetz/icinga-installer.git \
-refs/tags/v@ANY_VERSION@
+opts="repack,compression=xz" \
+  https://github.com/lbetz/icinga-installer/tags \
+  .*/v?(\d[\d\.]*)\.tar\.gz
